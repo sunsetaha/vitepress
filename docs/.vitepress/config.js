@@ -48,6 +48,11 @@ module.exports = {
     },
     // 社交链接
     socialLinks: [{ icon: "github", link: "https://github.com" }],
-
-  }
+  },
+  localeLinks: {
+    items: [
+    { text: "中文", link: "/" },
+    { text: "English", link: "/en/" }
+    ]
+  },
 }
