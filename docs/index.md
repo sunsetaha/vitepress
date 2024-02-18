@@ -10,38 +10,17 @@ hero:
     alt: logo 
   actions:
     - theme: brand
-      text: 快速开始
-      link: /articles/vitepress
-    - theme: alt
-      text: 在 github 上查看
-      link: https://github.com/vuejs/vitepress
+      text: 快速阅读
+      link: /frontend/hcj/intro
 features:
-  - icon: ⚡️
-    title: 这里是功能区 1
-    details: 这里是功能区 1 详情信息
-    link: https://github.com/vuejs/vitepress
-  - icon: 🖖
-    title: 这里是功能区 2
-    details: 这里是功能区 2 详情信息
-  - icon: 🛠️
-    title: 这里是功能区 3
-    details: 这里是功能区 3 详情信息
-  - icon: ⚡️
-    title: 这里是功能区 1
-    details: 这里是功能区 1 详情信息
-  - icon: 🖖
-    title: 这里是功能区 2
-    details: 这里是功能区 2 详情信息
-  - icon: 🛠️
-    title: 这里是功能区 3
-    details: 这里是功能区 3 详情信息
-  - icon: ⚡️
-    title: 这里是功能区 1
-    details: 这里是功能区 1 详情信息
-  - icon: 🖖
-    title: 这里是功能区 2
-    details: 这里是功能区 2 详情信息
-  - icon: 🛠️
-    title: 这里是功能区 3
-    details: 这里是功能区 3 详情信息
+  - icon: ️📕
+    title: 现代 JavaScript 教程（外链）
+    details: 以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
+    link: https://zh.javascript.info/
+    linkText: 点击查看
+  - icon: ❤️
+    title: zTools
+    details: 记录一些常用的工具函数
+    link: http://ztools.sunsetz.cn
+    linkText: 点击查看
 ---
