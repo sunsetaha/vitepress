@@ -12,12 +12,16 @@ module.exports = {
     ['link', { rel: 'icon', href: '/images/logo.gif' }]
   ],
   themeConfig: {
+    // 全局搜索
+    search: {
+      provider: 'local'
+    },
     logo: '/images/avatar.jpg',
     // 主导航
     nav: navBar,
     // 侧边导航
     sidebar: {
-      '/notes/docker': docker,
+      '/backend/docker': docker,
       '/sundry/vitepress': vitepress,
       '/sundry/vue3js': vue3js,
     },
