@@ -2,6 +2,8 @@ import navBar from './config/navBar.js'
 import {docker} from "./config/sidebar/docker";
 import {vitepress} from "./config/sidebar/vitepress";
 import {vue3js} from "./config/sidebar/vue3js";
+import { nest } from "./config/sidebar/nest";
+import { python } from './config/sidebar/python.js';
 
 module.exports = {
   title: 'sunset の 窝',
@@ -24,6 +26,8 @@ module.exports = {
       '/backend/docker': docker,
       '/sundry/vitepress': vitepress,
       '/sundry/vue3js': vue3js,
+      '/backend/nest': nest,
+      '/sundry/python': python,
     },
     // 菜单中文化
     outlineTitle: '本页目录',

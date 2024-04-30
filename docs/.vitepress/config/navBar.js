@@ -31,7 +31,8 @@ const navBar = [
                 items: [
                     { text: 'Java', link: '/backend/java/intro' },
                     { text: 'SSM', link: '/backend/ssm/intro' },
-                    { text: 'SpringBoot', link: '/backend/springboot/intro' }
+                    { text: 'SpringBoot', link: '/backend/springboot/intro' },
+                    { text: 'Nest.js', link: '/backend/nest/intro' }
                 ]
             },
             {
@@ -64,7 +65,8 @@ const navBar = [
         text: '杂项',
         items: [
             { text: 'vitepress', link: '/sundry/vitepress/intro' },
-            { text: 'vue3js', link: '/sundry/vue3js/intro' }
+            { text: 'vue3js', link: '/sundry/vue3js/intro' },
+            { text: 'python爬虫', link: '/sundry/python/intro' }
         ]
     },
     { text: '关于', link: '/about/index' }
