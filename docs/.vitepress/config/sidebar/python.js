@@ -36,12 +36,32 @@ export const python = [
           link: "/sundry/python/7"
         },
         {
-          text: "re模块",
+          text: "re模块-正则匹配",
           link: "/sundry/python/8"
         },
         {
-          text: "csv模块",
+          text: "csv模块-文件读写",
           link: "/sundry/python/9"
+        },
+        {
+          text: "[实例]抓取猫眼电影排行榜",
+          link: "/sundry/python/10"
+        },
+        {
+          text: "pymysql模块-数据存储",
+          link: "/sundry/python/11"
+        },
+        {
+          text: "[实例]抓取多级页面数据",
+          link: "/sundry/python/12"
+        },
+        {
+          text: "Scrapy框架",
+          link: "/sundry/python/38"
+        },
+        {
+          text: "[实例]Scrapy框架应用",
+          link: "/sundry/python/39"
         }
       ],
   },
