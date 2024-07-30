@@ -4,9 +4,12 @@ import {vitepress} from "./config/sidebar/vitepress";
 import {vue3js} from "./config/sidebar/vue3js";
 import { nest } from "./config/sidebar/nest";
 import { python } from './config/sidebar/python.js';
+import { html } from './config/sidebar/html.js';
+import { css } from './config/sidebar/css.js';
+import { js } from './config/sidebar/js.js';
 
 module.exports = {
-  title: 'sunset の 窝',
+  title: 'sunsetz の 窝',
   description: '用于记录、整理、存储和管理个人相关信息的文档。',
   base: '/',
   head: [
@@ -28,6 +31,9 @@ module.exports = {
       '/sundry/vue3js': vue3js,
       '/backend/nest': nest,
       '/sundry/python': python,
+      '/frontend/html': html,
+      '/frontend/css': css,
+      '/frontend/js': js,
     },
     // 菜单中文化
     outlineTitle: '本页目录',
@@ -42,7 +48,7 @@ module.exports = {
     // socialLinks: [{ icon: "github", link: "https://github.com" }],
     footer: {
       message: '<a href="http://beian.miit.gov.cn/">粤ICP备2023058913号-1</a>',
-      copyright: 'Copyright © 2023-present <a href="http://resume.sunsetz.cn/">sunsetz</a>'
+      copyright: 'Copyright © 2023-present <a href="https://resume.sunsetz.cn/">sunsetz</a>'
     }
   },
 }

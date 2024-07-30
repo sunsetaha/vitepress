@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Sunset の 窝
+  name: sunsetz の 窝
   text: 难避免卷入时代太恐怖
   tagline: 用文字记录生活/工作（bushi<br />一个静态文档网站
   image:
@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速阅读
-      link: /frontend/hcj/intro
+      link: /frontend/html/intro
 features:
   - icon: ️📚
     title: 现代 JavaScript 教程（外链）
