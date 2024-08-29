@@ -1,40 +1,60 @@
 // Docker技术笔记左侧导航栏
 export const html = [
     {
-        text: "HTML知识点",
+        text: "HTML+CSS",
         items: [
             {
-                text: "HTML简介",
-                link: "/frontend/html/intro",
+                text: "Flex布局",
+                link: "/frontend/css/flex",
             },
             {
-                text: "HTML5",
-                link: "/frontend/html/pre",
+                text: "Grid布局",
+                link: "/frontend/css/grid",
             },
             {
-                text: "HTML语义化",
-                link: "/frontend/html/1",
-            },
-            {
-                text: "DOCTYPE（文档类型）",
-                link: "/frontend/html/2",
+                text: "HTML 基础元素标签",
+                link: "/frontend/html/element",
             },
             {
                 text: "常用的 meta 标签",
-                link: "/frontend/html/3",
+                link: "/frontend/html/meta",
             },
             {
-                text: "script 标签中 defer 和 async",
-                link: "/frontend/html/4",
+                text: "常用的标签属性",
+                link: "/frontend/html/elAttr",
             },
             {
-                text: "HTML5的离线储存",
-                link: "/frontend/html/5",
+                text: "CSS 选择器",
+                link: "/frontend/css/selector",
             },
             {
-                text: "iframe",
-                link: "/frontend/html/6",
-            }
+                text: "HTML 表单",
+                link: "/frontend/html/form",
+            },
+            {
+                text: "HTML 图像映射",
+                link: "/frontend/html/imgMap",
+            },
+            {
+                text: "CSS BFC",
+                link: "/frontend/css/bfc",
+            },
+            {
+                text: "CSS3 常用属性",
+                link: "/frontend/css/css3attr",
+            },
+            {
+                text: "CSS3 动画",
+                link: "/frontend/css/animation",
+            },
+            {
+                text: "calc() 函数",
+                link: "/frontend/css/calc",
+            },
+            {
+                text: "重绘和回流",
+                link: "/frontend/html/refluxRedraw",
+            },
         ],
     },
 ];

@@ -32,7 +32,7 @@ module.exports = {
       '/backend/nest': nest,
       '/sundry/python': python,
       '/frontend/html': html,
-      '/frontend/css': css,
+      '/frontend/css': html,
       '/frontend/js': js,
     },
     // 菜单中文化

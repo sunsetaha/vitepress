@@ -3,26 +3,13 @@ const navBar = [
     {
         text: '前端知识',
         items: [
-            {
-                text: '基础',
-                items: [
-                    { text: 'HTML', link: '/frontend/html/intro' },
-                    { text: 'CSS', link: '/frontend/css/intro' },
-                    { text: 'JS', link: '/frontend/js/intro' },
-                    // { text: 'VUE', link: '/frontend/vue/intro' }
-                ]
-            },
-            // {
-            //     text: '提升',
-            //     items: [
-            //         { text: '自动化构建工具', link: '/frontend/packaging/intro' },
-            //         { text: '性能优化', link: '/frontend/optimize/intro' },
-            //         { text: 'Nginx', link: '/frontend/nginx/intro' },
-            //         { text: '其他技能', link: '/frontend/skill/intro' }
-            //     ]
-            // }
+            { text: 'HTML+CSS', link: '/frontend/css/flex' },
+            { text: 'JavaScript', link: '/frontend/js/dataStructure' },
+            // { text: 'JS', link: '/frontend/js/intro' },
+            // { text: 'VUE', link: '/frontend/vue/intro' },
+            // { text: 'React', link: '/frontend/react/intro' },
         ]
-    },
+},
     // {
     //     text: '后端知识',
     //     items: [
@@ -67,6 +54,12 @@ const navBar = [
             { text: 'vitepress', link: '/sundry/vitepress/intro' },
             { text: 'vue3js', link: '/sundry/vue3js/intro' },
             { text: 'python爬虫', link: '/sundry/python/intro' }
+        ]
+    },
+    {
+        text: '实践记录',
+        items: [
+            { text: '前端自动化部署', link: '/practice/automaticdeployment' }
         ]
     },
     { text: '关于', link: '/about/index' }
